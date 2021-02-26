@@ -15,6 +15,7 @@ public class Demo {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.in/");
 		driver.findElement(By.id("//div[@id='nav-xshop-container']"));
+		System.out.println(driver.getCurrentUrl());
 	}
 
 }
